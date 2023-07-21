@@ -1,0 +1,8 @@
+.about-container {
+    display: flex;
+    background-color: #F2F2F2;
+}
+
+.about-img {
+    width: 40%;
+}

@@ -1,0 +1,10 @@
+.home-container {
+    display: flex;
+    background-color: #4B5CC4;
+}
+
+.home-container--left---text1,
+.home-container--left---title,
+.home-container--left---text2 {
+    color:#ffffff;
+}
