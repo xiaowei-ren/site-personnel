@@ -10,6 +10,8 @@ body {
 }
 
 .p,
-.h2 {
+.h2,
+.button {
     font-family: Raleway;
+    margin: 0;
   }

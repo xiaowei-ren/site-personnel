@@ -1,0 +1,2 @@
+import '../Carte/Carte.css'
+
