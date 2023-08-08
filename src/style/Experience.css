@@ -1,0 +1,10 @@
+.experience {
+    background-color: #EAF1FA;
+    box-sizing: border-box;
+    min-height: 100dvh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 60px;
+}
