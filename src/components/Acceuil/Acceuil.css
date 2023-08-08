@@ -5,6 +5,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 60px;
 }
 
 .home-container {
@@ -52,7 +53,6 @@ button {
     font-size: 20px;
     border-radius: 20px;
     padding: 20px;
-    box-shadow: 5px 5px rgba(43, 43, 43, 0.5);
 }
 
 .home-container--left---icon {

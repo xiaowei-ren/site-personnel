@@ -1,6 +1,9 @@
-body {
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Raleway&display=swap');
+
+html,body {
   margin: 0;
   padding: 0;
+  font-family: 'Raleway', sans-serif;
 }
 
 .container {
@@ -8,10 +11,3 @@ body {
   width: 100%;
   margin: 0 auto;
 }
-
-.p,
-.h2,
-.button {
-    font-family: Raleway;
-    margin: 0;
-  }

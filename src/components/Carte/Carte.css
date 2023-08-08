@@ -1,0 +1,32 @@
+.carte-container {
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+    border-radius: 20px;
+    padding: 30px;
+    padding-bottom: 50px;
+}
+
+.carte-container img {
+    width: 5vw;
+}
+
+.carte-container h3,
+.carte-container ul {
+    font-family: Raleway;
+}
+
+.carte-container h3 {
+    font-size: 40px;
+    color: #4F4F4F;
+}
+
+.carte-container ul {
+    list-style-type: none;
+    color: #4B5CC4;
+    padding: 0;
+    margin: 0;
+}

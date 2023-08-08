@@ -1,0 +1,19 @@
+.skills {
+    background-color: #4B5CC4;
+    padding: 60px;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    min-height: 100dvh;
+}
+
+.page-container {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.container-under {
+    display: flex;
+    justify-content: space-between;
+}
