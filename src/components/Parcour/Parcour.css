@@ -5,3 +5,21 @@
     justify-content: center;
     align-items: center;
 }
+
+.parcour-container img {
+    width: 5vw;
+}
+
+.parcour-container h3,
+.parcour-container ul li {
+    color:#4B5CC4;
+    font-family: 'Raleway';
+}
+
+.parcour-container h3 {
+    font-size: 30px;
+}
+
+.parcour-container ul li{
+    font-size: 20px;
+}

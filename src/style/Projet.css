@@ -1,0 +1,9 @@
+.projet {
+    background-color: #4B5CC4;
+    box-sizing: border-box;
+    min-height: 100dvh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 60px;
+}

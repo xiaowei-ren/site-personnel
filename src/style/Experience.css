@@ -8,3 +8,20 @@
     align-items: center;
     padding: 60px;
 }
+
+.contenus-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.experience-container h2 {
+    color:#4B5CC4;
+    font-size: 60px;
+    text-align: center;
+}
+
+.line {
+    width: 1px;
+    background-color: #4B5CC4;
+}
+

@@ -5,6 +5,7 @@ import Acceuil from '../src/components/Acceuil/Acceuil'
 import About from '../src/components/About/About'
 import Skills from '../src/pages/Skills'
 import Experience from '../src/pages/Experience'
+import Projet from "../src/pages/Projet"
 
 function App() {
 
@@ -14,6 +15,7 @@ function App() {
       <About />
       <Skills />
       <Experience />
+      <Projet />
 
 
     </main>
