@@ -6,8 +6,8 @@ import '../style/Experience.css'
 
 function Experience (){
     return(
-        <div className='experience container'>
-            <div className='experience-container'>
+        <div className='experience'>
+            <div className='experience-container container'>
                 <h2>Experience</h2>
                 <div className='contenus-container'>
                     <Parcour icon={profession} title={"Professional experience"} parcour1={"Stagiaire en web marketing - Readymade Networks"} parcour2={"Directrice de la strategie marketing - Whopu"} parcour3={"Autre"}/>
