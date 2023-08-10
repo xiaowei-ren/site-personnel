@@ -5,14 +5,14 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 60px;
+    padding: 3.125vw;
 }
 
 .about-container {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 145px;
+    gap: 7.552vw;
 }
 
 .about-img {
@@ -29,13 +29,13 @@
     width: 46%;
     display: flex;
     flex-direction: column;
-    gap: 30px;
+    gap: 1.5625vw;
 }
 
 .about-container-right div {
     display: flex;
     flex-direction: column;
-    gap: 15px;
+    gap: 0.78125vw;
 }
 
 .about-container-right h2,
@@ -45,11 +45,11 @@
 }
 
 .about-container-right h2 {
-    font-size: 60px;
+    font-size: 4.167vw;
 }
 
 .about-container-right p {
-    font-size: 25px;
+    font-size: 1.302vw;
 }
 
 .about-container-right button {
@@ -58,8 +58,8 @@
     background-color: #EAF1FA;
     color: #4B5CC4;
     font-family: Raleway;
-    font-size: 17px;
-    border-radius: 25px;
-    padding: 7px;
-    border: 2px solid;
+    font-size: 0.885vw;
+    border-radius: 1.302vw;
+    padding: 0.365vw;
+    border: 0.104vw solid;
 }

@@ -8,6 +8,12 @@
     padding: 60px;
 }
 
+.projet-container {
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+}
+
 .galerie-layout {
     display: flex;
     justify-content: space-around;

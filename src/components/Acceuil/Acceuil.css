@@ -5,25 +5,25 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 60px;
+    padding: 3.125vw;
 }
 
 .home-container {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 145px;
+    gap: 7.552vw;
 }
 
 .home-container--left {
     display: flex;
     flex-direction: column;
-    gap: 50px;
+    gap: 2.604vw;
     width: 46%;
 }
 
 .home-container--left---text {
-    gap: 30px;
+    gap: 1.5625vw;
     display: flex;
     flex-direction: column;
 }
@@ -36,13 +36,13 @@
 }
 
 .home-container--left---text1 {
-    font-size: 48px;
+    font-size: 2.5vw;
 }
 .home-container--left---title {
-    font-size: 80px;
+    font-size: 4.167vw;
 }
 .home-container--left---text2 {
-    font-size: 25px;
+    font-size: 1.302vw;
 }
 
 button {
@@ -50,9 +50,9 @@ button {
     border: none;
     color: #4B5CC4;
     font-family: Raleway;
-    font-size: 20px;
-    border-radius: 20px;
-    padding: 20px;
+    font-size: 1.042vw;
+    border-radius: 1.042vw;
+    padding: 1.042vw;
 }
 
 .home-container--left---icon {
@@ -78,6 +78,5 @@ button {
 
 .home-container-right > img {
     width: 100%;
-    max-width: 400px;
+    max-width: 20.833vw;
 }
-

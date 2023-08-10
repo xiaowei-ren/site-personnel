@@ -6,7 +6,13 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 60px;
+    padding: 3.125vw;
+}
+
+.experience-container {
+    display: flex;
+    flex-direction: column;
+    gap: 1.823vw;
 }
 
 .contenus-container {
@@ -16,7 +22,7 @@
 
 .experience-container h2 {
     color:#4B5CC4;
-    font-size: 60px;
+    font-size: 4.167vw;
     text-align: center;
 }
 
