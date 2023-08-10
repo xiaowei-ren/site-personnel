@@ -30,3 +30,7 @@
     padding: 0;
     margin: 0;
 }
+
+.carte-container ul li {
+    font-size: 1.042vw;
+}

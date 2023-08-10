@@ -1,0 +1,32 @@
+.nav {
+    background-color: #4B5CC4;
+}
+
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+    width: 93.4%;
+    margin: 0 auto;
+    padding: 15px 0;
+    box-sizing: border-box;
+}
+
+.nav-left,
+.nav-right span {
+    color: #ffffff;
+    font-size: 20px;
+    font-family: 'Raleway';
+
+}
+
+
+
+
+.nav-right{
+    width: 35%;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
