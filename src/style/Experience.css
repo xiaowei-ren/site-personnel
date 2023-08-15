@@ -30,3 +30,15 @@
     width: 1px;
     background-color: #4B5CC4;
 }
+
+@media screen and (max-width:768px) {
+    .contenus-container {
+        flex-direction: column;
+        align-items: center;
+        gap: 1.823vw;
+    }
+
+    .experience-container h2 {
+        font-size: 45px;
+    }
+}

@@ -46,7 +46,7 @@
 }
 
 button {
-    width: 40%;
+    width: 46%;
     border: none;
     color: #4B5CC4;
     font-family: Raleway;
@@ -79,4 +79,47 @@ button {
 .home-container-right > img {
     width: 100%;
     max-width: 400px;
+}
+
+@media screen and (max-width:768px) {
+    .home {
+        padding: 25px;
+    }
+
+    .home-container--left {
+        width: 100%;
+        align-items: center;
+        gap: 35px;
+    }
+
+    button {
+        width: 70%;
+        font-size: 13px;
+        padding: 13px;
+    }
+
+    .home-container--left---icon {
+        width: 50%;
+    }
+
+    .home-container-right {
+        display: none;
+    }
+
+    .home-container--left---text {
+        align-items: center;
+    }
+
+    .home-container--left---text1 {
+        font-size: 25px;
+    }
+
+    .home-container--left---title {
+        font-size: 45px;
+    }
+
+    .home-container--left---text2 {
+        text-align: center;
+        font-size: 15px;
+    }
 }
