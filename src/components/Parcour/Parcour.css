@@ -7,7 +7,7 @@
 }
 
 .parcour-container img {
-    width: 5vw;
+    width: 96px;
 }
 
 .parcour-container h3,
@@ -17,9 +17,9 @@
 }
 
 .parcour-container h3 {
-    font-size: 2.083vw;
+    font-size: 40px;
 }
 
 .parcour-container ul li{
-    font-size: 1.042vw;
+    font-size: 20px;
 }

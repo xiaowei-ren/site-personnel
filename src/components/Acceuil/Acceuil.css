@@ -5,7 +5,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 3.125vw;
+    padding: 60px;
 }
 
 .home-container {
@@ -36,13 +36,13 @@
 }
 
 .home-container--left---text1 {
-    font-size: 2.5vw;
+    font-size: 48px;
 }
 .home-container--left---title {
-    font-size: 4.167vw;
+    font-size: 80px;
 }
 .home-container--left---text2 {
-    font-size: 1.302vw;
+    font-size: 25px;
 }
 
 button {
@@ -50,9 +50,9 @@ button {
     border: none;
     color: #4B5CC4;
     font-family: Raleway;
-    font-size: 1.042vw;
-    border-radius: 1.042vw;
-    padding: 1.042vw;
+    font-size: 20px;
+    border-radius: 20px;
+    padding: 20px;
 }
 
 .home-container--left---icon {
@@ -78,5 +78,5 @@ button {
 
 .home-container-right > img {
     width: 100%;
-    max-width: 20.833vw;
+    max-width: 400px;
 }

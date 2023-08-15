@@ -3,20 +3,20 @@
     display: flex;
     flex-direction: column;
     position: relative;
-    border-radius: 0.78125vw;
+    border-radius: 15px;
 }
 
 .img-container {
     width: 100%;
     height: 100%;
-    border-radius: 0.78125vw;
+    border-radius: 15px;
     position: relative;
 }
 
 .galerie-container img {
     width: 100%;
     height: 100%;
-    border-radius: 0.78125vw;
+    border-radius: 15px;
 }
 
 .masque {
@@ -26,7 +26,7 @@
     opacity: 0.3;
     position: absolute;
     top: 0%;
-    border-radius: 0.78125vw;
+    border-radius: 15px;
 }
 
 .text-container {
@@ -42,13 +42,15 @@
 }
 
 .text-container h4 {
-    font-size: 0.78125vw;
-    border: 0.104vw solid;
-    width: 27%;
-    border-radius: 0.521vw;
-    padding: 0.208vw;
+    font-size: 15px;
+    border: 2px solid;
+    border-radius: 10px;
+    padding: 7px;
+    display: inline-block;
+    margin-block-end: 0;
+    margin-bottom: 0;
 }
 
 .text-container p {
-    font-size: 0.9375vw;
+    font-size: 18px;
 }

@@ -5,13 +5,13 @@
     justify-content: center;
     align-items: center;
     width: 40%;
-    border-radius: 1.042vw;
-    padding: 1.5625vw;
-    padding-bottom: 2.604vw;
+    border-radius: 20px;
+    padding: 30px;
+    padding-bottom: 50px;
 }
 
 .carte-container img {
-    width: 5vw;
+    width: 96px;
 }
 
 .carte-container h3,
@@ -20,7 +20,7 @@
 }
 
 .carte-container h3 {
-    font-size: 2.083vw;
+    font-size: 40px;
     color: #4F4F4F;
 }
 
@@ -32,5 +32,5 @@
 }
 
 .carte-container ul li {
-    font-size: 1.042vw;
+    font-size: 20px;
 }

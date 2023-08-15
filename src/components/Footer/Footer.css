@@ -22,6 +22,10 @@
     gap: 35px;
 }
 
+.icon img {
+    width: 30px;
+}
+
 .date {
     color: #4B5CC4;
 }

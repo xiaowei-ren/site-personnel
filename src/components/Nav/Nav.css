@@ -11,22 +11,37 @@
     box-sizing: border-box;
 }
 
+.nav-right img {
+    display: none;
+}
+
 .nav-left,
 .nav-right span {
     color: #ffffff;
-    font-size: 20px;
+    font-size: 17px;
     font-family: 'Raleway';
-
 }
 
-
-
-
 .nav-right{
-    width: 35%;
+    width: 40%;
     display: flex;
     justify-content: space-between;
 }
 
 
+@media screen and (max-width:768px){
+    .nav-left {
+        font-size: 12px;
+    }
 
+    .nav-right img {
+        display: block;
+    }
+
+    .nav-right span {
+        display: none;
+    }
+
+
+
+}

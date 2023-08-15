@@ -1,4 +1,5 @@
 import "../Nav/Nav.css"
+import nav from "../../assets/nav.svg"
 
 function Nav() {
     return(
@@ -6,6 +7,7 @@ function Nav() {
             <div className='nav-container'>
                 <div className='nav-left'>Home</div>
                 <div className='nav-right'>
+                    <img src={nav} alt="menu de la navigation" />
                     <span>About me</span>
                     <span>Skills</span>
                     <span>Experience</span>
