@@ -33,4 +33,32 @@
 
 .carte-container ul li {
     font-size: 20px;
+    text-align: center;
+    margin: 10px 0;
+}
+
+@media screen and (max-width:768px) {
+    .container-under {
+        gap: 35px;
+    }
+
+    .carte-container {
+        width: 70%;
+        border-radius: 15px;
+        padding: 10px;
+        padding-bottom: 30px;
+
+    }
+    .carte-container img {
+        width: 60px;
+    }
+    .carte-container h3 {
+        font-size: 20px;
+        font-weight: bold;
+    }
+
+    .carte-container ul li {
+        font-size: 15px;
+        margin: 7px 0;
+    }
 }

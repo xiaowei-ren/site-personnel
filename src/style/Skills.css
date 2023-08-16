@@ -17,3 +17,17 @@
     display: flex;
     justify-content: space-around;
 }
+
+@media screen and (max-width:768px) {
+    .skills {
+        padding: 10px;
+    }
+
+    .title-container h2 {
+        font-size: 45px;
+    }
+
+    .page-container {
+        gap: 0;
+    }
+}

@@ -1,5 +1,5 @@
 .galerie-container {
-    width: 30%;
+    width: 45%;
     display: flex;
     flex-direction: column;
     position: relative;
@@ -42,7 +42,7 @@
 }
 
 .text-container h4 {
-    font-size: 15px;
+    font-size: 17px;
     border: 2px solid;
     border-radius: 10px;
     padding: 7px;
@@ -52,5 +52,29 @@
 }
 
 .text-container p {
-    font-size: 18px;
+    font-size: 20px;
+}
+
+@media screen and (max-width:768px) {
+    .galerie-container {
+        width: 94%;
+    }
+
+    .galerie-container,
+    .img-container,
+    .galerie-container img ,
+    .masque {
+        border-radius: 10px;
+    }
+
+    .text-container h4 {
+        font-size: 13px;
+        border: 1px solid;
+        border-radius: 8px;
+        padding: 5px;
+    }
+
+    .text-container p {
+        font-size: 15px;
+    }
 }

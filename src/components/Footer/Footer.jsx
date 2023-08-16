@@ -6,7 +6,7 @@ function Footer() {
     return(
         <div className='footer'>
             <div className='footer-container'>
-                <p>CONTACTEZ-MOI</p>
+                <p className='title'>CONTACTEZ-MOI</p>
                 <div className='icon'>
                     <img src={linkedin2} alt="icon-linkedin" />
                     <img src={mail} alt="icon-email" />

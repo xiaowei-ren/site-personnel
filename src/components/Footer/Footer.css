@@ -11,7 +11,7 @@
 }
 
 
-.footer-container p {
+.title {
     color: #4B5CC4;
     font-size: 20px;
     font-weight: bold;
@@ -28,4 +28,30 @@
 
 .date {
     color: #4B5CC4;
+}
+
+@media screen and (max-width:768px) {
+    .footer {
+        padding: 10px;
+    }
+
+    .footer-container {
+        gap: 10px;
+    }
+
+    .icon {
+        gap: 20px;
+    }
+
+    .icon img {
+        width: 20px;
+    }
+
+    .title {
+        font-size: 15px;
+    }
+
+    .date {
+        font-size: 12px;
+    }
 }

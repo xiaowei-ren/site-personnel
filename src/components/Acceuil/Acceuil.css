@@ -62,7 +62,7 @@ button {
 }
 
 .home-container--left---icon > img {
-    width: 15%;
+    width: 16%;
 }
 
 .home-container-right {
@@ -83,7 +83,7 @@ button {
 
 @media screen and (max-width:768px) {
     .home {
-        padding: 25px;
+        padding: 10px;
     }
 
     .home-container--left {
@@ -93,13 +93,18 @@ button {
     }
 
     button {
-        width: 70%;
-        font-size: 13px;
+        width: 52%;
+        font-size: 14px;
         padding: 13px;
     }
 
     .home-container--left---icon {
-        width: 50%;
+        width: 49%;
+        justify-content: space-around;
+    }
+
+    .home-container--left---icon > img {
+        width: 25px;
     }
 
     .home-container-right {
@@ -120,6 +125,6 @@ button {
 
     .home-container--left---text2 {
         text-align: center;
-        font-size: 15px;
+        font-size: 17px;
     }
 }

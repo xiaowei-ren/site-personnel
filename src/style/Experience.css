@@ -32,10 +32,19 @@
 }
 
 @media screen and (max-width:768px) {
+    .experience {
+        padding: 10px;
+    }
+
+    .experience-container {
+        gap: 0;
+        margin-bottom: 25px;
+    }
+
     .contenus-container {
         flex-direction: column;
         align-items: center;
-        gap: 1.823vw;
+        gap: 15px;
     }
 
     .experience-container h2 {

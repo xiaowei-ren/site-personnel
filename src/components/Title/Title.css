@@ -11,3 +11,13 @@
     font-size: 25px;
     text-align: center;
 }
+
+@media screen and (max-width:768px) {
+    .title-container h2 {
+        font-size: 45px;
+    }
+
+    .title-container p {
+        font-size: 17px;
+    }
+}

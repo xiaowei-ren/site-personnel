@@ -11,7 +11,6 @@ function Projet() {
                 <div className='galerie-layout'>
                     <Galerie img={projet1} title={"PROGRAMME"} descrip={"Développement d'un site de location de logement en React.js"}/>
                     <Galerie img={projet1} title={"Programme"} descrip={"Développement d'un site de location de logement en React.js"}/>
-                    <Galerie img={projet1} title={"Programme"} descrip={"Développement d'un site de location de logement en React.js"}/>
                 </div>
             </div>
         </div>

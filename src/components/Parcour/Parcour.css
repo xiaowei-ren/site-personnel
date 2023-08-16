@@ -18,8 +18,28 @@
 
 .parcour-container h3 {
     font-size: 40px;
+    text-align: center;
 }
 
 .parcour-container ul li{
     font-size: 20px;
+}
+
+@media screen and (max-width:768px) {
+    .parcour-container {
+        width: 100%;
+    }
+
+    .parcour-container img {
+        width: 60px;
+    }
+
+    .parcour-container h3 {
+        font-size: 25px;
+        text-align: center;
+    }
+
+    .parcour-container ul li{
+        font-size: 17px;
+    }
 }
