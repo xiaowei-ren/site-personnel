@@ -2,6 +2,12 @@ import '../About/About.css'
 import weiwei from '../../assets/weiwei.jpg'
 
 function About() {
+    {/*lien vers les selections */}
+    function jump (id) {
+        const releventDiv = document.getElementById(id);
+                        releventDiv.scrollIntoView({behavior: "smooth"});
+    }
+
     return(
         <div className='about' id="about">
             <div className='about-container'>
@@ -17,7 +23,7 @@ function About() {
                         </p>
                         <p>Besides, I love Chinese food, beautiful landscapes and museums.</p>
                     </div>
-                    <button>SKILLS</button>
+                    <button onClick={() => jump('skills')}>SKILLS</button>
                 </div>
             </div>
         </div>

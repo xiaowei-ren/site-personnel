@@ -55,6 +55,10 @@ button {
     padding: 20px;
 }
 
+button:hover {
+    transform: scale(1.1);
+}
+
 .home-container--left---icon {
     width: 35%;
     display: flex;
@@ -63,6 +67,17 @@ button {
 
 .home-container--left---icon > img {
     width: 16%;
+}
+
+.home-container--left---icon > img:hover {
+    transform: scale(1.3);
+}
+
+.message {
+    color: #ffffff;
+    font-family: 'Raleway';
+    margin: -20px 0;
+    font-size: 18px;
 }
 
 .home-container-right {
@@ -126,5 +141,9 @@ button {
     .home-container--left---text2 {
         text-align: center;
         font-size: 17px;
+    }
+
+    .message {
+        font-size: 14px;
     }
 }
