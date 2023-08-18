@@ -6,7 +6,7 @@ import '../Acceuil/Acceuil.css';
 
 function Acceuil () {
     return(
-        <div className='home'>
+        <div className='home' id="home">
             <div className='home-container container'>
                  <div className='home-container--left'>
                     <div className='home-container--left---text'>

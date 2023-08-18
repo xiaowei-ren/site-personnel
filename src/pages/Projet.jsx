@@ -5,7 +5,7 @@ import "../style/Projet.css"
 
 function Projet() {
     return(
-        <div className='projet'>
+        <div className='projet' id="projet">
             <div className='projet-container container'>
                 <Title title={"Projet"} descrip={"Projet informatique et projet du marketing"}/>
                 <div className='galerie-layout'>

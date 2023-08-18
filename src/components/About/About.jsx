@@ -3,7 +3,7 @@ import weiwei from '../../assets/weiwei.jpg'
 
 function About() {
     return(
-        <div className='about'>
+        <div className='about' id="about">
             <div className='about-container'>
                 <div className='about-container-left'>
                     <img src={weiwei} alt="proflit photo" className='about-img' />
