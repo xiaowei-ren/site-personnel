@@ -24,6 +24,7 @@
 
 .icon img {
     width: 30px;
+    cursor: pointer;
 }
 
 .icon img:hover {

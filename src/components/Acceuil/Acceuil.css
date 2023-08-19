@@ -53,6 +53,7 @@ button {
     font-size: 20px;
     border-radius: 20px;
     padding: 20px;
+    cursor: pointer;
 }
 
 button:hover {
@@ -67,6 +68,7 @@ button:hover {
 
 .home-container--left---icon > img {
     width: 16%;
+    cursor: pointer;
 }
 
 .home-container--left---icon > img:hover {

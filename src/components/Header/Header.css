@@ -19,7 +19,8 @@
 .nav-right span {
     color: #ffffff;
     font-size: 17px;
-    font-family: 'Raleway';  
+    font-family: 'Raleway';
+    cursor: pointer;  
 }
 
 .nav-right span:hover {
