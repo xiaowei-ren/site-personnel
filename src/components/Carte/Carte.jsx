@@ -8,11 +8,12 @@ function Carte (props) {
                 {props.title}
             </h3>
             <ul>
-                <li>{props.name}</li>
-                <li>{props.name}</li>
-                <li>NoSQL(MongoDB)</li>
-                <li>Python</li>
-                <li>SQL(MySQL)</li>
+                <li>{props.name1}</li>
+                <li>{props.name2}</li>
+                <li>{props.name3}</li>
+                <li>{props.name4}</li>
+                <li>{props.name5}</li>
+                <li>{props.name6}</li>              
             </ul>
         </div>
     )
