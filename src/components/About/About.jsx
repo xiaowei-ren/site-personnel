@@ -15,15 +15,15 @@ function About() {
                     <img src={weiwei} alt="proflit photo" className='about-img' />
                 </div>
                 <div className='about-container-right'>
-                    <h2>About me</h2>
+                    <h2>Présentation</h2>
                     <div>
-                        <p>Based in Paris, I reconverted myself in web development after working many years in digital marketing area.</p>
+                        <p>Basé à Paris, je me suis reconverti dans le développement web après avoir travaillé de nombreuses années dans le domaine du marketing digital.</p>
                         <p>
-                            I always loved digital word and I want to contribute to it by making valuable products for everyone.
+                        J'ai toujours aimé le domaine numérique et je veux y contribuer en créant des produits de valeur pour tout le monde.
                         </p>
-                        <p>Besides, I love Chinese food, beautiful landscapes and museums.</p>
+                        <p>De plus, j'aime faire la cuisine chinoise, les beaux paysages et les musées.</p>
                     </div>
-                    <button onClick={() => jump('skills')}>SKILLS</button>
+                    <button onClick={() => jump('skills')}>COMPÉTENCES</button>
                 </div>
             </div>
         </div>

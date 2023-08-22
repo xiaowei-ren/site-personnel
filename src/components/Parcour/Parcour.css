@@ -25,6 +25,24 @@
     font-size: 20px;
 }
 
+.parcour-yayout {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.parcour {
+    color:#4B5CC4;
+}
+.parcour h4{
+    font-size: 20px;
+}
+
+.parcour p{
+    font-size: 15px;
+    font-style: italic;
+}
+
 @media screen and (max-width:768px) {
     .parcour-container {
         width: 100%;
@@ -39,7 +57,16 @@
         text-align: center;
     }
 
-    .parcour-container ul li{
+    .parcour-yayout {
+        gap: 2px;
+    }
+
+    .parcour h4{
         font-size: 17px;
     }
+    
+    .parcour p{
+        font-size: 13px;
+    }
+
 }

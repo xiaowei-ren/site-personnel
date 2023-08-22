@@ -10,9 +10,25 @@ function Experience (){
             <div className='experience-container container'>
                 <h2>Experience</h2>
                 <div className='contenus-container'>
-                    <Parcour icon={profession} title={"Professional experience"} parcour1={"Stagiaire en web marketing - Readymade Networks"} parcour2={"Directrice de la strategie marketing - Whopu"} parcour3={"Autre"}/>
+                    <Parcour icon={profession} title={"Professional experience"} 
+                        parcour1={"Stagiaire en web marketing"}
+                        name1={"Readymade networks, Paris (12/2020 - 04/2021)"}
+                        parcour2={"Directrice de la strategie marketing"} 
+                        name2={"Société de biotechnologie de Wopu, Chine (2012-2015)"}
+                        parcour3={"Marketeur - Département du marketing"}
+                        name3={"Groupe de radio et télévision de Zhejiang, 4è réseau de télévision, Chine (2010-2012)"}
+                    />
                     <div className='line'></div>
-                    <Parcour icon={education} title={"Education"} parcour1={"Diplôme Développement web (BAC +2)"} parcour2={"Master Spécialisé (BAC+6)"} parcour3={"Expert en stratégie marketing et communication"}/>
+                    <Parcour icon={education} title={"Diplômes obtenus"} 
+                        parcour1={"Diplôme Développement web (BAC +2)"}
+                        name1={"OpenClassrooms (2023)"}
+                        parcour2={"Manager Marketing Data & Commerce Electronique (BAC+6)"} 
+                        name2={"Skema Business School (2021)"}
+                        parcour3={"Expert en stratégie marketing et communication (BAC+5)"}
+                        name3={"Efficom Lille et OpenClassrooms (2019)"}
+                        parcour4={"Technologie appliquée d'information électronique (BAC+3)"}
+                        name4={"Université de technologie appliquée électronique de Zhengzhou  (2010)"}
+                    />
                 </div>
             </div>
         </div>

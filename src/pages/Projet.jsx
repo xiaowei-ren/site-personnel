@@ -28,7 +28,7 @@ function Projet() {
     return(
         <div className='projet' id="projet">
             <div className='projet-container container'>
-                <Title title={"Projet"} descrip={"Projet informatique et projet du marketing"}/>
+                <Title title={"Projets"} descrip={"Projet informatique et projet du marketing"}/>
                 <div className='galerie-layout'>
                     {data && data.length > 0 ? data.map((item, index) => {
                         return (
