@@ -7,6 +7,7 @@ import Projet from "../src/pages/Projet"
 import Footer from "../src/components/Footer/Footer"
 import Header from "../src/components/Header/Header"
 import Acceuil from "../src/components/Acceuil/Acceuil"
+import '../src/components/Acceuil/Acceuil.css'
 function App() {
   return (
     <div>

@@ -1,6 +1,5 @@
 import Galerie from "../components/Galerie/Galerie"
 import Title from "../components/Title/Title"
-import projet1 from "../assets/projet1.jpg"
 import "../style/Projet.css"
 import { useEffect, useState } from "react"
 
@@ -28,7 +27,9 @@ function Projet() {
     return(
         <div className='projet' id="projet">
             <div className='projet-container container'>
-                <Title title={"Projets"} descrip={"Projet informatique et projet du marketing"}/>
+                <Title title={"Projets"} 
+                    descrip={"Grâce à mon parcours en tant qe developpeuse et à mon expérience dans le marketing, je connais le domaine digital sous plusieurs aspects. J'ai eu d'occation de réaliser les multiples projets dans les différents domaines."}
+                />
                 <div className='galerie-layout'>
                     {data && data.length > 0 ? data.map((item, index) => {
                         return (
@@ -36,7 +37,7 @@ function Projet() {
                                 img={item.img}
                                 title={item.title}
                                 descrip={item.descrip}
-                                url={item.link}
+                                url={item.link ? item.link : ''}
                                 key={"projects-" + index}
                             />
                         )

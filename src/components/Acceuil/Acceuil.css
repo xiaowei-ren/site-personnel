@@ -45,7 +45,8 @@
     font-size: 25px;
 }
 
-button {
+
+.link {
     width: 46%;
     border: none;
     color: #4B5CC4;
@@ -54,9 +55,12 @@ button {
     border-radius: 20px;
     padding: 20px;
     cursor: pointer;
+    background-color: #ffffff;
+    text-decoration: none;
+    text-align: center;
 }
 
-button:hover {
+.link:hover {
     transform: scale(1.1);
 }
 
@@ -109,7 +113,7 @@ button:hover {
         gap: 35px;
     }
 
-    button {
+    .link{
         width: 52%;
         font-size: 14px;
         padding: 13px;

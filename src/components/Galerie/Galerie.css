@@ -31,7 +31,7 @@
     border-radius: 15px;
 }
 
-.galerie-container img.link {
+.galerie-container img.lien {
     width: 30px;
     height: auto;
     position: absolute;
@@ -40,7 +40,7 @@
     cursor: pointer;
 }
 
-.galerie-container img.link:hover {
+.galerie-container img.lien:hover {
     transform: scale(1.3);
 }
 
@@ -82,7 +82,7 @@
         border-radius: 10px;
     }
 
-    .galerie-container img.link {
+    .galerie-container img.lien {
         width: 22px;
         right: 5%;
         top: 4%;

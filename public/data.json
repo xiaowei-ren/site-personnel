@@ -26,6 +26,12 @@
             "link": "https://github.com/xiaowei-ren/kasa-p7-oc" 
         },
         {
+            "img": "/images/agence.jpg",
+            "title": "SEO",
+            "descrip": "Amélioration du SEO du site 'La Panthère' ?",
+            "link": "https://xiaowei-ren.github.io/new-seo-p4-oc/" 
+        },
+        {
             "img": "/images/these.jpg",
             "title": "THÈSE",
             "descrip": "Comment populariser commerce social en france ?",
@@ -36,6 +42,18 @@
             "title": "ARTICLE",
             "descrip": "Le live-streaming simple divertissement ou nouvelle branche du-e-commerce ?",
             "link": "https://blog-mdce.fr/le-live-streaming-simple-divertissement-ou-nouvelle-branche-du-e-commerce/" 
+        },
+        {
+            "img": "/images/vetement.jpg",
+            "title": "MARKETING",
+            "descrip": "Mis au point la stratégie éditoriale et communautaire d'une marque de vêtements de la marque 'blune'?",
+            "link": "https://drive.google.com/drive/folders/1Za_WamoZ1M1j9EV8iCmJ9n7OnrhpLyUS?usp=sharing" 
+        },
+        {
+            "img": "/images/clubmed.jpg",
+            "title": "MARKETING",
+            "descrip": "Digital Consulting Week SKEMA - ESIEA-Projet Club Med. Le résultat peut être montré sur demande."
         }
+
     ]
 }

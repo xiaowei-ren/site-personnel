@@ -11,12 +11,15 @@ function Experience (){
                 <h2>Experience</h2>
                 <div className='contenus-container'>
                     <Parcour icon={profession} title={"Professional experience"} 
-                        parcour1={"Stagiaire en web marketing"}
-                        name1={"Readymade networks, Paris (12/2020 - 04/2021)"}
-                        parcour2={"Directrice de la strategie marketing"} 
-                        name2={"Société de biotechnologie de Wopu, Chine (2012-2015)"}
-                        parcour3={"Marketeur - Département du marketing"}
-                        name3={"Groupe de radio et télévision de Zhejiang, 4è réseau de télévision, Chine (2010-2012)"}
+                        parcour1={"Stagiaire developpeuse d'information"}
+                        name1={"Openclassroom, Paris (09/2022 - 03/2023)"}
+                        parcour2={"Stagiaire en web marketing"}
+                        name2={"Readymade networks, Paris (12/2020 - 04/2021)"}
+                        parcour3={"Directrice de la strategie marketing"} 
+                        name3={"Société de biotechnologie de Wopu, Chine (2012-2015)"}
+                        parcour4={"Marketeur - Département du marketing"}
+                        name4={"Groupe de radio et télévision de Zhejiang, 4è réseau de télévision, Chine (2010-2012)"}
+    
                     />
                     <div className='line'></div>
                     <Parcour icon={education} title={"Diplômes obtenus"} 

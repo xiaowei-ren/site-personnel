@@ -5,7 +5,7 @@ import illustration from '../../assets/illustration.svg';
 import '../Acceuil/Acceuil.css';
 import copy from 'copy-to-clipboard';
 import { useState } from 'react';
-import CV from "../../../public/CV.pdf"
+import { Link } from 'react-router-dom';
 
 function Acceuil () {
 
@@ -23,10 +23,11 @@ function Acceuil () {
                     <div className='home-container--left---text'>
                         <p className='home-container--left---text1'>Bonjour, je suis</p>
                         <h2 className='home-container--left---title'>Xiaowei Ren</h2>
-                        <p className='home-container--left---text2'>Développeuse Full-Stack / Experte en e-commerce et maketing digital</p>
+                        <p className='home-container--left---text2'>Développeuse Full-Stack <br/> Experte en e-commerce et maketing digital</p>
                     </div>
-                    <button>TELECHARGER CV</button>
+                    <Link to="/files/CV.pdf" target='_blank' className='link'>TÉLÉCHARGER CV</Link>
                     <div className='home-container--left---icon'>
+                        {/*coper l'adress de mail */}
                         <img src={email} alt="email" onClick = {() => {
                             copy('xiaoweiren123@gmail.com');
                             setShowMessage(true)

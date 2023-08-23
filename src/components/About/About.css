@@ -53,7 +53,9 @@
 }
 
 .about-container-right button {
-    width: 17%;
+    display: inline-block;
+    width: auto;
+    align-self: flex-start;
     border-color: #4B5CC4;
     background-color: #EAF1FA;
     color: #4B5CC4;
@@ -102,10 +104,10 @@
     }
 
     .about-container-right button {
-        width: 43%;
         font-size: 14px;
         border-radius: 15px;
         padding: 5px;
         border: 1px solid;
+        align-self: center;
     }
 }
