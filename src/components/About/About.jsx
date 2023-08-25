@@ -17,11 +17,11 @@ function About() {
                 <div className='about-container-right'>
                     <h2>Présentation</h2>
                     <div>
-                        <p>Basé à Paris, je me suis reconverti dans le développement web après avoir travaillé de nombreuses années dans le domaine du marketing digital.</p>
+                        <p>Basée à Paris, je me suis reconvertie dans le développement web après avoir travaillé de nombreuses années dans le domaine du marketing digital.</p>
                         <p>
-                        J'ai toujours aimé le domaine numérique et je veux y contribuer en créant des produits de valeur pour tout le monde.
+                        J'ai toujours aimé le domaine du numérique et je veux y contribuer en créant des produits utiles au plus grand nombre.
                         </p>
-                        <p>De plus, j'aime faire la cuisine chinoise, les beaux paysages et les musées.</p>
+                        <p>Concernant mes passions, j'aime la natation, les beaux paysages et les musées.</p>
                     </div>
                     <button onClick={() => jump('skills')}>COMPÉTENCES</button>
                 </div>

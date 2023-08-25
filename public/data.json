@@ -1,59 +1,105 @@
 {
+    "parcours": {
+        "experience" : {
+            "icon": "/images/profession.svg",
+            "title": "Expérience professionnelle",
+            "items": [
+                {
+                    "parcour": "Stagiaire développeuse web",
+                    "name": "Openclassrooms, Paris (09/2022 - 03/2023)"
+                },
+                {
+                    "parcour": "Stagiaire en web marketing",
+                    "name": "Readymade networks, Paris (12/2020 - 04/2021)"
+                },
+                {
+                    "parcour": "Directrice de la strategie marketing",
+                    "name": "Société de biotechnologie de Wopu, Chine (2012-2015)"
+                },
+                {
+                    "parcour": "Marketeur - Département du marketing",
+                    "name": "Groupe de radio et télévision de Zhejiang, Chine (2010-2012)"
+                }
+            ]
+        },
+        "diplomes": {
+            "icon": "/images/education.svg",
+            "title": "Formations",
+            "items": [
+                {
+                    "parcour": "Reconversion - Diplôme Développement web (BAC +2)",
+                    "name": "OpenClassrooms (2023)"
+                },
+                {
+                    "parcour": "Manager Marketing Data & Commerce Electronique (BAC+6)",
+                    "name": "Skema Business School (2021)"
+                },
+                {
+                    "parcour": "Expert en stratégie marketing et communication (BAC+5)",
+                    "name": "Efficom Lille et OpenClassrooms (2019)"
+                },
+                {
+                    "parcour": "Technologie appliquée d'information électronique (BAC+3)",
+                    "name": "Université de technologie appliquée électronique de Zhengzhou (2010)"
+                }
+            ]
+
+        }
+
+    },
     "projects": [
         {
+            "img": "/images/Kasa.jpg",
+            "title": "FRONT",
+            "descrip": "Développement d'un site de location de logement 'Kasa' en React.js",
+            "link": "https://github.com/xiaowei-ren/kasa-p7-oc"
+        },
+        {
+            "img": "/images/Piiquante.jpg",
+            "title": "BACK",
+            "descrip": "Développement du back-end d'une application web 'Piiquante' en Node.js",
+            "link": "https://github.com/xiaowei-ren/piiquante-p6-oc"
+        },
+        {
             "img": "/images/ohMyFood.jpg",
-            "title": "PROGRAMME",
-            "descrip": "Intégration d'une maquette en site web et mobile du restaurant 'oh my food'",
+            "title": "FRONT",
+            "descrip": "Intégration d'une maquette en site web responsive du restaurant 'oh my food'",
             "link": "https://xiaowei-ren.github.io/ohmyfood-p3-oc/"
         },
         {
             "img": "/images/kanap.jpg",
-            "title": "PROGRAMME",
-            "descrip": "Réalisation du site e-commerce 'kanap' en JavaScript",
+            "title": "FRONT",
+            "descrip": "Réalisation du site e-commerce 'Kanap' en JavaScript",
             "link": "https://github.com/xiaowei-ren/e-commerce-p5-oc"
-        },
-        {
-            "img": "/images/Piiquante.jpg",
-            "title": "PROGRAMME",
-            "descrip": "Développement du back-end d'une application web 'Piiquante' en Node.js",
-            "link": "https://github.com/xiaowei-ren/piiquante-p6-oc"  
-        },
-        {
-            
-            "img": "/images/Kasa.jpg",
-            "title": "PROGRAMME",
-            "descrip": "Développement d'un site de location de logement 'Kasa' en React.js",
-            "link": "https://github.com/xiaowei-ren/kasa-p7-oc" 
         },
         {
             "img": "/images/agence.jpg",
             "title": "SEO",
             "descrip": "Amélioration du SEO du site 'La Panthère' ?",
-            "link": "https://xiaowei-ren.github.io/new-seo-p4-oc/" 
+            "link": "https://xiaowei-ren.github.io/new-seo-p4-oc/"
         },
         {
             "img": "/images/these.jpg",
             "title": "THÈSE",
             "descrip": "Comment populariser commerce social en france ?",
-            "link": "https://knowledge.skema-bs.fr/comment-populariser-commerce-social-france/" 
+            "link": "https://knowledge.skema-bs.fr/comment-populariser-commerce-social-france/"
         },
         {
             "img": "/images/blog.jpg",
             "title": "ARTICLE",
             "descrip": "Le live-streaming simple divertissement ou nouvelle branche du-e-commerce ?",
-            "link": "https://blog-mdce.fr/le-live-streaming-simple-divertissement-ou-nouvelle-branche-du-e-commerce/" 
+            "link": "https://blog-mdce.fr/le-live-streaming-simple-divertissement-ou-nouvelle-branche-du-e-commerce/"
         },
         {
             "img": "/images/vetement.jpg",
             "title": "MARKETING",
             "descrip": "Mis au point la stratégie éditoriale et communautaire d'une marque de vêtements de la marque 'blune'?",
-            "link": "https://drive.google.com/drive/folders/1Za_WamoZ1M1j9EV8iCmJ9n7OnrhpLyUS?usp=sharing" 
+            "link": "https://drive.google.com/drive/folders/1Za_WamoZ1M1j9EV8iCmJ9n7OnrhpLyUS?usp=sharing"
         },
         {
             "img": "/images/clubmed.jpg",
             "title": "MARKETING",
             "descrip": "Digital Consulting Week SKEMA - ESIEA-Projet Club Med. Le résultat peut être montré sur demande."
         }
-
     ]
 }

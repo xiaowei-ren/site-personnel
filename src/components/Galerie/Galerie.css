@@ -13,7 +13,7 @@
     position: relative;
 }
 
-.galerie-container img:not(.link) {
+.galerie-container img:not(.lien) {
     width: 100%;
     height: 100%;
     border-radius: 15px;
@@ -25,7 +25,7 @@
     width: 100%;
     height: 100%;
     background-color: #000;
-    opacity: 0.3;
+    opacity: .5;
     position: absolute;
     top: 0%;
     border-radius: 15px;

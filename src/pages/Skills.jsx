@@ -11,10 +11,10 @@ function Skills () {
             <div className='page-container container'>
                 <div className='container-top'>
                     <Title title={"Compétences"}
-                    descrip={"Mes expériences professionnelles me permettent d'être aujourd'hui autonome, Polyvalent et de disposer des compétences techniques dont voici un aperçu :"}/>
+                    descrip={"Mes expériences professionnelles me permettent d'être aujourd'hui autonome, polyvalente et de disposer des compétences techniques dont voici un aperçu :"}/>
                 </div>
                 <div className='container-under'>
-                    <Carte img={coding} title={"Programme"} 
+                    <Carte img={coding} title={"Développement"} 
                         name1={"HTML/CSS"}
                         name2={"JavaScript"}
                         name3={"Node.js"}

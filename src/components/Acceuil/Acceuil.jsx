@@ -23,22 +23,22 @@ function Acceuil () {
                     <div className='home-container--left---text'>
                         <p className='home-container--left---text1'>Bonjour, je suis</p>
                         <h2 className='home-container--left---title'>Xiaowei Ren</h2>
-                        <p className='home-container--left---text2'>Développeuse Full-Stack <br/> Experte en e-commerce et maketing digital</p>
+                        <p className='home-container--left---text2'>Développeuse web Full-Stack <br/> Experte en e-commerce et maketing digital</p>
                     </div>
-                    <Link to="/files/CV.pdf" target='_blank' className='link'>TÉLÉCHARGER CV</Link>
+                    <Link to="/files/CV.pdf" target='_blank' className='link'>TÉLÉCHARGEZ MON CV</Link>
                     <div className='home-container--left---icon'>
-                        {/*coper l'adress de mail */}
-                        <img src={email} alt="email" onClick = {() => {
+                        {/* copier l'adresse mail */}
+                        <img src={email} alt="email" title="Obtenez mon adresse mail" onClick = {() => {
                             copy('xiaoweiren123@gmail.com');
                             setShowMessage(true)
                             setTimeout(() => setShowMessage(false), 2000)
                         }} />
-                        <img src={github} alt="github" onClick = {() => openInNweTab("https://github.com/xiaowei-ren")}/>
-                        <img src={linkedin} alt="linkdin" onClick = {() => openInNweTab("https://www.linkedin.com/in/xiaowei-ren/")}/>
+                        <img src={github} alt="github" title="Suivez-moi sur Github" onClick = {() => openInNweTab("https://github.com/xiaowei-ren")}/>
+                        <img src={linkedin} alt="linkdin" title="Ajoutez-moi sur LinkedIn" onClick = {() => openInNweTab("https://www.linkedin.com/in/xiaowei-ren/")}/>
                     </div>
-                    {/* avertir de la message d'mail */}
+                    {/* avertir du message d'email */}
                     { showMessage ? 
-                        <div className='message'>L'adresse mail a été copié</div> 
+                        <div className='message'>L'adresse mail a été copiée !</div> 
                         : 
                         <></>
                     }

@@ -14,7 +14,7 @@ function Galerie(props) {
                 <div className='masque'></div>
             </div>
             {props.url !== "" ?
-                <img className='lien' title="Voir le projet sur Github" src={link} alt="lien du projet vers github" onClick = {() => openInNweTab(props.url)}/>
+                <img className='lien' title="Cliquez pour voir plus de détails sur ce projet" src={link} alt="Lien du projet" onClick = {() => openInNweTab(props.url)}/>
                 : <></>
             }
             <div className='text-container'>
