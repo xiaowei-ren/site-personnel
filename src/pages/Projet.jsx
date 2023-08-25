@@ -10,7 +10,7 @@ function Projet() {
 
     useEffect(() => {
         if (data.length === 0 && loading) {
-            fetch('/data.json')
+            fetch('/site-personnel/data.json')
                 .then(response => response.json())
                 .then(data => {
                     setData(data.projects)

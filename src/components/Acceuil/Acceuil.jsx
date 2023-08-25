@@ -25,7 +25,7 @@ function Acceuil () {
                         <h2 className='home-container--left---title'>Xiaowei Ren</h2>
                         <p className='home-container--left---text2'>Développeuse web Full-Stack <br/> Experte en e-commerce et maketing digital</p>
                     </div>
-                    <Link to="/files/CV.pdf" target='_blank' className='link'>TÉLÉCHARGEZ MON CV</Link>
+                    <Link to="/site-personnel/files/CV.pdf" target='_blank' className='link'>TÉLÉCHARGEZ MON CV</Link>
                     <div className='home-container--left---icon'>
                         {/* copier l'adresse mail */}
                         <img src={email} alt="email" title="Obtenez mon adresse mail" onClick = {() => {

@@ -9,7 +9,7 @@ function Experience (){
 
     useEffect(() => {
         if (data.length === 0 && isLoading) {
-            fetch('/data.json')
+            fetch('/site-personnel/data.json')
                 .then(response => response.json())
                 .then(data => {
                     setData(data.parcours)
