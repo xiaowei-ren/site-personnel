@@ -13,8 +13,8 @@ function Footer() {
             <div className='footer-container'>
                 <p className='title'>CONTACTEZ-MOI</p>
                 <div className='icon'>
-                    <img src={linkedin2} alt="icon-linkedin" onClick = {() => openInNweTab("https://www.linkedin.com/in/xiaowei-ren/")}/>
-                    <img src={mail} alt="icon-email" />
+                    <img src={linkedin2} alt="icon-linkedin" onClick = {() => openInNweTab("https://www.linkedin.com/in/xiaowei-ren/?locale=fr_FR")}/>
+                    <img src={mail} alt="icon-email" onClick = {() => openInNweTab("mailto:xiaoweiren123@gmail.com")}/>
                 </div>
                 <p className='date'>©2023 Xiaowei Ren All Rights Reserved</p>
             </div>
